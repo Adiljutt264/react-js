@@ -1,14 +1,11 @@
 import './App.css';
-function Mycomponent() {
-  return (
-    <div>My Component</div>
-  );
-}
-
+import Header  from './components/Header'
+import Banner  from './components/Banner';
 function App() {
   return (
-    <div>Hello <Mycomponent /> Guys
-    <button>Click me</button>
+    <div>
+    <Header />
+    <Banner />
     </div>
   );
 }
