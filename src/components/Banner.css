@@ -1,8 +1,61 @@
-.banner-input{
-    padding: 10px;
-    margin: 10px;
+.banner{
+    background-color: rgb(240, 240, 240);
+    margin: auto;
+    width: 50%;
+    min-height: 50vh;
+    box-sizing: border-box;
+    padding: 4vmax 6vmax;
 }
-.banner button{
+.banner > form {
+display: flex;
+flex-direction: column;
+}
+input,
+textarea,
+button {
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    margin: 10px;
+    border-radius: 5px;
+}
+button{
+    background-color: rgb(28, 161, 223);
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+.banner > h1{
+    text-align: center;
+}
+.tasks{
+    display: flex;
+    background-color: white;
     padding: 10px;
     margin: 10px;
+    border-radius: 5px;
+    align-items: center;
+}
+.tasks > div{
+    width: 100%;
+}
+.tasks > button{
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{ 
+    background-color: black;
+}
+.tasks  p {
+    font-weight: 500;
+}
+.tasks span {
+    color: grey;
+}
+.tasks > button {
+    background-color: red;
 }
