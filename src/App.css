@@ -11,3 +11,36 @@
   color: rgb(255, 255, 255);
   text-align: center;
 }
+.nav{
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+  text-align: center;
+}
+.nav > a{
+  text-decoration: none;
+  margin: 20px;
+  color: black;
+}
+.contact{
+  background-color: rgb(219, 255, 91);
+  width: 100%;
+    height: 50vh;
+}
+.about{
+    background-color: rgb(255, 178, 178);
+    width: 100%;
+    height: 50vh;
+}
+.footer{
+  background-color: rgb(28, 161, 223);
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.user{
+  background-color: rgb(255, 73, 73);
+    width: 100%;
+    height: 50vh;
+}
